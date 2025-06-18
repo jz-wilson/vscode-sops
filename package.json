@@ -87,6 +87,12 @@
 					"scope": "resource",
 					"default": false,
 					"description": "enable/disable MAC verification (default: false)"
+				},
+				"sops.indent": {
+					"type": "string",
+					"scope": "resource",
+					"default": "4",
+					"description": "the number of spaces to indent YAML or JSON encoded file (default: 4)"
 				}
 			}
 		},
